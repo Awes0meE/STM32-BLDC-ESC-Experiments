@@ -1,0 +1,13 @@
+{
+    "cmake.useCMakePresets": "always",
+    "cmake.defaultConfigurePreset": "Debug",
+    "cmake.defaultBuildPreset": "Debug",
+    "cmake.configureOnOpen": false,
+    "cmake.preferredGenerators": [
+        "Ninja"
+    ],
+    "cmake.cmakePath": "cube-cmake",
+    "cmake.configureArgs": [
+        "-DCMAKE_COMMAND=cube-cmake"
+    ]
+}
